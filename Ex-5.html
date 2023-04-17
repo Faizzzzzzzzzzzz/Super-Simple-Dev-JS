@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex 5</title>
+  </head>
+  <body>
+    <script>
+      // Ex 5a
+      //   let name = "faiz";
+      // Ex 5b
+      //   console.log("My name is ", name);
+      //  Ex 5c
+      let cost = 5 + 3 * 2 + 9;
+      //  Ex 5d
+      //   console.log(`Cost of food: $${cost}`);
+
+      //  Ex 5e
+      let tax = (cost * 10) / 100;
+
+      //   Ex 5f
+      //   console.log(`Restaurant charges a 10% tax: $${tax}`);
+
+      //   Ex 5g
+      let totalCost = cost + tax;
+      //   console.log(`Total cost: $${totalCost}`);
+
+      //   Ex 5h
+      let cartQuantity = 0;
+    </script>
+
+    <!-- Ex 5h -->
+    <button
+      onclick="cartQuantity += 1; console.log('cartQuantity:',cartQuantity)"
+    >
+      Add to Cart
+    </button>
+    <button
+      onclick="cartQuantity += 2; console.log('cartQuantity:',cartQuantity)"
+    >
+      +2
+    </button>
+    <button
+      onclick="cartQuantity += 3; console.log('cartQuantity:',cartQuantity)"
+    >
+      +3
+    </button>
+    <button
+      onclick="cartQuantity = 0; console.log('cartQuantity:',cartQuantity)"
+    >
+      Reset
+    </button>
+  </body>
+</html>
