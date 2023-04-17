@@ -33,7 +33,7 @@
 
     <!-- Ex 5h -->
     <button
-      onclick="cartQuantity += 1; console.log('cartQuantity:',cartQuantity)"
+      onclick="cartQuantity ++; console.log('cartQuantity:',cartQuantity)"
     >
       Add to Cart
     </button>
@@ -46,6 +46,24 @@
       onclick="cartQuantity += 3; console.log('cartQuantity:',cartQuantity)"
     >
       +3
+    </button>
+
+    <!-- Ex  5i -->
+    <button
+      onclick="cartQuantity --; console.log('cartQuantity:',cartQuantity)"
+    >
+      Remove from cart
+    </button>
+    <!-- Ex  5j -->
+    <button
+      onclick="cartQuantity -= 2; console.log('cartQuantity:',cartQuantity)"
+    >
+      -2
+    </button>
+    <button
+      onclick="cartQuantity -= 3; console.log('cartQuantity:',cartQuantity)"
+    >
+      -3
     </button>
     <button
       onclick="cartQuantity = 0; console.log('cartQuantity:',cartQuantity)"
