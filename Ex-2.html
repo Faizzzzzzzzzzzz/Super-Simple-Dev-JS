@@ -18,8 +18,39 @@
       //   console.log("$" + ((18.5 + 2 * 7.5) * 10) / 100);
       // 2e
       //   console.log("$" + ((18.5 + 2 * 7.5) * 20) / 100);
-      // 2f
-      console.log(20.95 + 18.99 + 7.99 + 4.99);
+
+      // 2f  cents to dollars
+      let items = (2095 + 1899 + 799 + 499) / 100;
+      // console.log(items);
+
+      // 2g   5.29
+      let tax = (((2095 + 1899 + 799 + 499) * 10) / 100 / 100).toFixed(2);
+      // console.log(tax);
+
+      // 2g    5
+      // console.log(Math.round((((2095 + 1899 + 799 + 499) / 100) * 10) / 100));
+
+      // 2i
+      let total = Number(items) + Number(tax);
+      // console.log(total);
+
+      // 2j
+      // console.log(Math.ceil(2.8));
+
+      // 2k
+      // console.log(Math.floor(2.4));
+
+      // challenge Exercise temperature convert
+
+      // 2l
+      let inFah1 = (25 * 9) / 5 + 32;
+      console.log(`temperature in fahrenhiet ${inFah1}`);
+      let inCel = ((86 - 32) * 5) / 9;
+      // 2m
+      console.log(`temperature in celsius ${inCel}`);
+      // 2n
+      let inFah2 = (-55 * 9) / 5 + 32;
+      console.log(`temperature in fahrenhiet ${inFah2}`);
     </script>
   </body>
 </html>
