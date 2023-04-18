@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex-6</title>
+  </head>
+  <body>
+    <script>
+      // Ex 6a
+      //   let date = new Date();
+      //   let hour = date.getHours();
+      let hour = 19;
+
+      //   Ex 6c
+
+      let name = "faiz";
+      //   if (hour >= 6 && hour < 12) {
+      //     document.write(`Good Morning ${name}`);
+      //   } else if (hour >= 13 && hour < 17) {
+      //     document.write(`Good Afternoon ${name}`);
+      //   } else {
+      //     document.write(`Good Evening ${name}`);
+      //   }
+
+      // Ex 6d
+      let age = 75;
+      //   Ex 6e
+      let holiday = true;
+      //   if (age >= 65 || (age <= 6 && holiday)) {
+      //     console.log("Discount for you");
+      //   } else {
+      //     console.log("No Discount for you");
+      //   }
+
+      //   Ex 6f
+      let num = Math.random();
+      //   Ex 6h
+      let result;
+      //   Ex 6i
+      let guess = "head";
+
+      //   if (num < 0.5) {
+      //     result = "head";
+      //   } else {
+      //     result = "tail";
+      //   }
+      //   num < 0.5 ? (result = "head") : (result = "tail");
+      //   if (guess === result) {
+      //     console.log("You Win!");
+      //   } else {
+      //     console.log("You Lose!");
+      //   }
+      //   Ex 6j
+      //   guess === result ? console.log("You Win!") : console.log("You Lose!");
+
+      // Ex 6k
+      let cartQuantity = 0;
+    </script>
+
+    <!-- Ex 5h -->
+    <button
+      onclick="cartQuantity<10 ? cartQuantity++: alert('cart is full'); console.log('cartQuantity:',cartQuantity)"
+    >
+      Add to Cart
+    </button>
+    <button
+      onclick="cartQuantity<10 ? cartQuantity+= 2: alert('cart is full'); console.log('cartQuantity:',cartQuantity)"
+    >
+      +2
+    </button>
+    <button
+      onclick="cartQuantity<10 ? cartQuantity+=3: alert('cart is full'); console.log('cartQuantity:',cartQuantity)"
+    >
+      +3
+    </button>
+
+    <!-- Ex  5i -->
+    <button
+      onclick="cartQuantity > 0 ? cartQuantity -- : alert('Not enough items in cart'); console.log('cartQuantity:',cartQuantity)"
+    >
+      Remove from cart
+    </button>
+    <!-- Ex  5j -->
+    <button
+      onclick="cartQuantity > 0 ? cartQuantity -=2 : alert('Not enough items in cart'); console.log('cartQuantity:',cartQuantity)"
+    >
+      -2
+    </button>
+    <button
+      onclick="cartQuantity > 0 ? cartQuantity -= 3 : alert('Not enough items in cart'); console.log('cartQuantity:',cartQuantity)"
+    >
+      -3
+    </button>
+    <button
+      onclick="cartQuantity = 0; console.log('cartQuantity:',cartQuantity)"
+    >
+      Reset
+    </button>
+  </body>
+</html>
