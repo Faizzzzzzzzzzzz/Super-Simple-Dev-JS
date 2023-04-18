@@ -7,7 +7,7 @@
     <title>Ex 5</title>
   </head>
   <body>
-    <script>
+    <!-- <script>
       // Ex 5a
       //   let name = "faiz";
       // Ex 5b
@@ -29,46 +29,85 @@
 
       //   Ex 5h
       let cartQuantity = 0;
-    </script>
+    </script> -->
 
     <!-- Ex 5h -->
-    <button
+    <!-- <button
       onclick="cartQuantity ++; console.log('cartQuantity:',cartQuantity)"
     >
       Add to Cart
-    </button>
-    <button
+    </button> -->
+    <!-- <button
       onclick="cartQuantity += 2; console.log('cartQuantity:',cartQuantity)"
     >
       +2
-    </button>
-    <button
+    </button> -->
+    <!-- <button
       onclick="cartQuantity += 3; console.log('cartQuantity:',cartQuantity)"
     >
       +3
-    </button>
+    </button> -->
 
     <!-- Ex  5i -->
-    <button
+    <!-- <button
       onclick="cartQuantity --; console.log('cartQuantity:',cartQuantity)"
     >
       Remove from cart
-    </button>
+    </button> -->
     <!-- Ex  5j -->
-    <button
+    <!-- <button
       onclick="cartQuantity -= 2; console.log('cartQuantity:',cartQuantity)"
     >
       -2
-    </button>
-    <button
+    </button> -->
+    <!-- <button
       onclick="cartQuantity -= 3; console.log('cartQuantity:',cartQuantity)"
     >
       -3
-    </button>
-    <button
+    </button> -->
+    <!-- <button
       onclick="cartQuantity = 0; console.log('cartQuantity:',cartQuantity)"
     >
       Reset
-    </button>
+    </button> -->
+
+    <!-- 5m -->
+    <p>
+     
+    </p>
+    <p>
+    <button onclick=" calculation += '1'; console.log(calculation)">1</button>
+    <button onclick=" calculation += '2'; console.log(calculation)">2</button>
+    <button onclick=" calculation += '3'; console.log(calculation)">3</button>
+    <button onclick=" calculation += '+'; console.log(calculation)">+</button>
+
+    </p>
+      <p>
+    <button onclick=" calculation += '4'; console.log(calculation)">4</button>
+    <button onclick=" calculation += '5'; console.log(calculation)">5</button>
+    <button onclick=" calculation += '6'; console.log(calculation)">6</button>
+    <button onclick=" calculation += '-'; console.log(calculation)">-</button>
+
+    </p>
+        <button onclick=" calculation += '7'; console.log(calculation)">7</button>
+    <button onclick=" calculation += '8'; console.log(calculation)">8</button>
+    <button onclick=" calculation += '9'; console.log(calculation)">9</button>
+    <button onclick=" calculation += '*'; console.log(calculation)">*</button>
+ 
+    </p>
+    <button onclick=" calculation += '0'; console.log(calculation)">0</button>
+    <button onclick=" calculation += '.'; console.log(calculation)">.</button>
+    <button onclick=" calculation = eval(calculation); console.log(calculation)">=</button>
+    <button onclick=" calculation += '/'; console.log(calculation)">/</button>
+    </p>
+   <button onclick="calculation = '' ">Clear</button>
+    </p>
+
+    <script>
+      // 5n
+      
+      let calculation = "";
+      let result = document.getElementsByTagName('p').innerHTML = calculation;
+      </script>
   </body>
 </html>
